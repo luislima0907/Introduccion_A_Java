@@ -1,0 +1,10 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte edad;
+		edad = 19;
+		System.out.println("La edad de Luis es: " + edad);
+	}
+}

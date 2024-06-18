@@ -1,0 +1,23 @@
+
+public class PracticaDeLaClaseMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// las raices cuadradas de un numero siempre 
+		// estan dentro de un double
+		double numeroUno = 9;
+		
+		// en el menu de intellisense nos da una ayuda sobre
+		// lo que necesita el metodo para que funcione bien
+		double raiz = Math.sqrt(numeroUno);
+		
+		System.out.println("La raiz de " + numeroUno + " es: " + raiz);
+		
+		// ejemplo de usar un dato de tipo float, debemos colocar f al final de los decimales
+		// del numero
+		float numero = 5.85f;
+		int resultado = Math.round(numero);
+		
+	}
+}

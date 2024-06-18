@@ -1,0 +1,24 @@
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int primerNumero = 5;
+		int segundoNumero;
+		segundoNumero = 10;
+		int resultado = primerNumero + segundoNumero;
+		// el metodo println imprime lo que le pasemos en los parametros del metodo
+		// y despues hace un salto de linea, a diferencia del metodo print que
+		// este imprime la instruccion de seguido sin dejar un salto de linea si es que
+		// hubiera una impresion previa
+		System.out.println("La suma de los dos numeros es: " + resultado);
+		
+		// ejemplo de incrementar una variable con los operadores
+		primerNumero ++; // incrementa en 1
+		segundoNumero += 5; // el valor que tiene la variable mas el valor que le agreguemos
+		resultado = primerNumero - segundoNumero;
+		System.out.println("La resta de los dos numeros es: " + resultado);
+		
+	}
+}

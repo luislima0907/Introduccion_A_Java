@@ -1,0 +1,16 @@
+
+public class PracticaDeLaClaseMath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double numeroUno = 9;
+		
+		// en el menu de intellisense nos da una ayuda sobre
+		// lo que necesita el metodo para que funcione bien
+		double raiz = Math.sqrt(numeroUno);
+		
+		System.out.println("La raiz de " + numeroUno + " es: " + raiz);
+		
+	}
+}

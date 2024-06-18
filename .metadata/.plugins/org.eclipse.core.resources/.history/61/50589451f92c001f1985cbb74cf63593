@@ -1,0 +1,19 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// En java debemos inicializar una variable para poder usuarla en un futuro
+		// por ende no tiene valores por defecto
+		byte edad;
+		edad = 19;
+		
+		// ejemplo de concatenar una string con una variable
+		System.out.println("La edad de Luis es: " + edad);
+		
+		// ejemplo de declarar e iniciarlizar una variable en una sola linea
+		byte edadDeLeo = 24;
+		System.out.println("La edad de Leo es: " + edadDeLeo);
+	}
+}
