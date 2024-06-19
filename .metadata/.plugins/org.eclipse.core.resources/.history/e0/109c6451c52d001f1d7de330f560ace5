@@ -1,0 +1,15 @@
+import javax.swing.*;
+public class EntradaEjemploConJOptionPane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//JOptionPane sirve para crear interfaces graficas para ingresar datos
+		
+		// la clase JOptionPane tiene un metodo showInputDialog sirve para ingresar
+		// texto en una variable de tipo string
+		String nombreUsuario = JOptionPane.showInputDialog("Introduce tu nombre por favor");
+		String edad = JOptionPane.showInputDialog("Ahora introduce tu edad");
+		
+		System.out.println("Hola " + nombreUsuario + " Tienes " + edad + " años");
+	}
+}

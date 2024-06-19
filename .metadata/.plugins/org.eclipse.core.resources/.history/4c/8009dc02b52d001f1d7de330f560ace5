@@ -1,0 +1,23 @@
+
+public class CompararCadenas {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Usamos la clase String para crear un objeto de cadenas de caracteres
+		String nombre = "Luis";
+		System.out.println("Mi nombre es: " + nombre);
+		
+		// el metodo lenght nos da cuantos caracteres hay una cadena de texto
+		System.out.println("Mi nombre tiene: "+ nombre.length() + " letras.");
+		
+		// el metodo charAt() nos devuelve el carecter de una cadena
+		// dandole como parametro un numero indice de referencia
+		System.out.println("En el indice 3 de la cadena: "+ nombre + " esta la letra: " + nombre.charAt(3));
+		int ultima_letra;
+		ultima_letra = nombre.length();
+		System.out.println("La ultima letra de " + nombre + " es la " + nombre.charAt(ultima_letra - 1));
+		
+		String frase = "Hoy es un dia para aprender java";
+		String fraseResumida = frase.substring(5, frase.length()-1);
+		System.out.println(fraseResumida);
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.*;
+public class PracticaDeCondicionales {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Introduce tu edad por favor");
+		int edadUsuario = entrada.nextInt();
+		
+		// para usar if debemos de usar los operadores
+		// de comparacion, un if puede llevar un else que es lo que ejecuta el programa
+		// si la condicion del if no es verdad o es diferente a lo que queremos
+		if (edadUsuario >= 18) 
+		{
+			System.out.println("Eres mayor de edad");
+		}
+		else 
+		{
+			System.out.println("Eres menor de edad");
+		}
+	}
+}

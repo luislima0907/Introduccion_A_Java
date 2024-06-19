@@ -1,0 +1,36 @@
+import javax.swing.*;
+import java.util.*;
+public class PracticaDeCondicionalesParte2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner decisionScanner = new Scanner(System.in);
+		System.out.println("Ingresa una de las siguientes opciones\n"
+				+ "1. Area de un cuadrado.\n"
+				+ "2. Area de un circulo.\n"
+				+ "3. Area de un rectangulo.\n"
+				+ "4. Area de un trinagulo.\n");
+		
+		int decisionUsuario = decisionScanner.nextInt();
+		
+		switch (decisionUsuario) 
+		{
+		case 1: 
+			String ladoUno = JOptionPane.showInputDialog("Introduce el primer lado");
+			int conversionLadoUno = Integer.parseInt(ladoUno);
+			String ladoDos = JOptionPane.showInputDialog("Introduce el segundo lado");
+			int conversionLadoDos = Integer.parseInt(ladoDos);
+			int areaCuadrado = conversionLadoUno * conversionLadoDos;
+			System.out.println("El area del cuadrado es: " + areaCuadrado);
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		default:
+			break;
+		}
+	}
+}

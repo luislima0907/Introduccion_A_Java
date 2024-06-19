@@ -1,0 +1,9 @@
+
+public class CompararCadenas {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre = "Luis";
+		System.out.println(nombre.length());
+		System.out.println(nombre.charAt(3));
+	}
+}
